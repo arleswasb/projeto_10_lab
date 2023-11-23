@@ -1,0 +1,93 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do marca_passo_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {G:/UFRN2023.2/CIRCUITOS DIGITAIS/LABORATORIO/PROJETO 10/Marca_Passo/Marca_Passo.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Marca_Passo
+# -- Compiling architecture logica of Marca_Passo
+# vcom -93 -work work {G:/UFRN2023.2/CIRCUITOS DIGITAIS/LABORATORIO/PROJETO 10/Marca_Passo/FFJK.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FFJK
+# -- Compiling architecture logica of FFJK
+# vcom -93 -work work {G:/UFRN2023.2/CIRCUITOS DIGITAIS/LABORATORIO/PROJETO 10/Marca_Passo/Contador_20Bits.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Contador_20Bits
+# -- Compiling architecture logica of Contador_20Bits
+# 
+vsim +altera -do marca_passo_run_msim_rtl_vhdl.do -l msim_transcript -gui work.marca_passo
+# vsim +altera -do marca_passo_run_msim_rtl_vhdl.do -l msim_transcript -gui work.marca_passo 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.marca_passo(logica)
+# Loading work.contador_20bits(logica)
+# Loading work.ffjk(logica)
+# do marca_passo_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {G:/UFRN2023.2/CIRCUITOS DIGITAIS/LABORATORIO/PROJETO 10/Marca_Passo/Marca_Passo.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Marca_Passo
+# -- Compiling architecture logica of Marca_Passo
+# vcom -93 -work work {G:/UFRN2023.2/CIRCUITOS DIGITAIS/LABORATORIO/PROJETO 10/Marca_Passo/FFJK.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FFJK
+# -- Compiling architecture logica of FFJK
+# vcom -93 -work work {G:/UFRN2023.2/CIRCUITOS DIGITAIS/LABORATORIO/PROJETO 10/Marca_Passo/Contador_20Bits.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Contador_20Bits
+# -- Compiling architecture logica of Contador_20Bits
+# 
+add wave -position insertpoint sim:/marca_passo/*
+force -freeze sim:/marca_passo/SA 1 0
+force -freeze sim:/marca_passo/SV 1 0
+force -freeze sim:/marca_passo/SW16 1 0
+force -freeze sim:/marca_passo/Reset 0 0
+force -freeze sim:/marca_passo/Clock 1 0, 0 {50 ps} -r 100
+run
+run
+run
+force -freeze sim:/marca_passo/SA 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

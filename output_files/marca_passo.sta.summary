@@ -1,0 +1,365 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'Contador_20Bits:Sinal_Atrio|FFJK:s3|qS'
+Slack : 0.379
+TNS   : 0.000
+
+Type  : Slow Model Setup 'Contador_20Bits:Sinal_Ventriculo|FFJK:s3|qS'
+Slack : 0.379
+TNS   : 0.000
+
+Type  : Slow Model Setup 'Contador_20Bits:Sinal_Ventriculo|FFJK:s0|qS'
+Slack : 0.957
+TNS   : 0.000
+
+Type  : Slow Model Setup 'Contador_20Bits:Sinal_Ventriculo|FFJK:s2|qS'
+Slack : 1.087
+TNS   : 0.000
+
+Type  : Slow Model Setup 'Contador_20Bits:Sinal_Atrio|FFJK:s1|qS'
+Slack : 1.137
+TNS   : 0.000
+
+Type  : Slow Model Setup 'Contador_20Bits:Sinal_Atrio|FFJK:s2|qS'
+Slack : 1.380
+TNS   : 0.000
+
+Type  : Slow Model Setup 'Contador_20Bits:Sinal_Ventriculo|FFJK:s1|qS'
+Slack : 1.398
+TNS   : 0.000
+
+Type  : Slow Model Setup 'Contador_20Bits:Sinal_Atrio|FFJK:s0|qS'
+Slack : 1.405
+TNS   : 0.000
+
+Type  : Slow Model Setup 'Clock'
+Slack : 2.823
+TNS   : 0.000
+
+Type  : Slow Model Hold 'Clock'
+Slack : -2.553
+TNS   : -5.106
+
+Type  : Slow Model Hold 'Contador_20Bits:Sinal_Atrio|FFJK:s0|qS'
+Slack : -1.135
+TNS   : -1.135
+
+Type  : Slow Model Hold 'Contador_20Bits:Sinal_Ventriculo|FFJK:s1|qS'
+Slack : -1.128
+TNS   : -1.128
+
+Type  : Slow Model Hold 'Contador_20Bits:Sinal_Atrio|FFJK:s2|qS'
+Slack : -1.110
+TNS   : -1.110
+
+Type  : Slow Model Hold 'Contador_20Bits:Sinal_Atrio|FFJK:s1|qS'
+Slack : -0.867
+TNS   : -0.867
+
+Type  : Slow Model Hold 'Contador_20Bits:Sinal_Ventriculo|FFJK:s2|qS'
+Slack : -0.817
+TNS   : -0.817
+
+Type  : Slow Model Hold 'Contador_20Bits:Sinal_Ventriculo|FFJK:s0|qS'
+Slack : -0.687
+TNS   : -0.687
+
+Type  : Slow Model Hold 'Contador_20Bits:Sinal_Atrio|FFJK:s3|qS'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'Contador_20Bits:Sinal_Ventriculo|FFJK:s3|qS'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'Contador_20Bits:Sinal_Atrio|FFJK:s1|qS'
+Slack : -2.205
+TNS   : -2.205
+
+Type  : Slow Model Recovery 'Contador_20Bits:Sinal_Ventriculo|FFJK:s3|qS'
+Slack : -2.144
+TNS   : -2.144
+
+Type  : Slow Model Recovery 'Contador_20Bits:Sinal_Ventriculo|FFJK:s0|qS'
+Slack : -2.129
+TNS   : -2.129
+
+Type  : Slow Model Recovery 'Contador_20Bits:Sinal_Ventriculo|FFJK:s2|qS'
+Slack : -1.999
+TNS   : -1.999
+
+Type  : Slow Model Recovery 'Contador_20Bits:Sinal_Atrio|FFJK:s3|qS'
+Slack : -1.956
+TNS   : -1.956
+
+Type  : Slow Model Recovery 'Contador_20Bits:Sinal_Ventriculo|FFJK:s1|qS'
+Slack : -1.933
+TNS   : -1.933
+
+Type  : Slow Model Recovery 'Contador_20Bits:Sinal_Atrio|FFJK:s0|qS'
+Slack : -1.929
+TNS   : -1.929
+
+Type  : Slow Model Recovery 'Contador_20Bits:Sinal_Atrio|FFJK:s2|qS'
+Slack : -1.505
+TNS   : -1.505
+
+Type  : Slow Model Recovery 'Clock'
+Slack : -0.763
+TNS   : -1.325
+
+Type  : Slow Model Removal 'Clock'
+Slack : -1.012
+TNS   : -1.777
+
+Type  : Slow Model Removal 'Contador_20Bits:Sinal_Atrio|FFJK:s2|qS'
+Slack : 0.431
+TNS   : 0.000
+
+Type  : Slow Model Removal 'Contador_20Bits:Sinal_Atrio|FFJK:s0|qS'
+Slack : 0.855
+TNS   : 0.000
+
+Type  : Slow Model Removal 'Contador_20Bits:Sinal_Atrio|FFJK:s3|qS'
+Slack : 0.882
+TNS   : 0.000
+
+Type  : Slow Model Removal 'Contador_20Bits:Sinal_Ventriculo|FFJK:s1|qS'
+Slack : 0.905
+TNS   : 0.000
+
+Type  : Slow Model Removal 'Contador_20Bits:Sinal_Ventriculo|FFJK:s2|qS'
+Slack : 0.971
+TNS   : 0.000
+
+Type  : Slow Model Removal 'Contador_20Bits:Sinal_Ventriculo|FFJK:s0|qS'
+Slack : 1.101
+TNS   : 0.000
+
+Type  : Slow Model Removal 'Contador_20Bits:Sinal_Ventriculo|FFJK:s3|qS'
+Slack : 1.116
+TNS   : 0.000
+
+Type  : Slow Model Removal 'Contador_20Bits:Sinal_Atrio|FFJK:s1|qS'
+Slack : 1.131
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'Clock'
+Slack : -1.380
+TNS   : -3.380
+
+Type  : Slow Model Minimum Pulse Width 'Contador_20Bits:Sinal_Atrio|FFJK:s0|qS'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'Contador_20Bits:Sinal_Atrio|FFJK:s1|qS'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'Contador_20Bits:Sinal_Atrio|FFJK:s2|qS'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'Contador_20Bits:Sinal_Atrio|FFJK:s3|qS'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'Contador_20Bits:Sinal_Ventriculo|FFJK:s0|qS'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'Contador_20Bits:Sinal_Ventriculo|FFJK:s1|qS'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'Contador_20Bits:Sinal_Ventriculo|FFJK:s2|qS'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'Contador_20Bits:Sinal_Ventriculo|FFJK:s3|qS'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Setup 'Contador_20Bits:Sinal_Atrio|FFJK:s3|qS'
+Slack : 0.665
+TNS   : 0.000
+
+Type  : Fast Model Setup 'Contador_20Bits:Sinal_Ventriculo|FFJK:s3|qS'
+Slack : 0.665
+TNS   : 0.000
+
+Type  : Fast Model Setup 'Contador_20Bits:Sinal_Ventriculo|FFJK:s0|qS'
+Slack : 0.775
+TNS   : 0.000
+
+Type  : Fast Model Setup 'Contador_20Bits:Sinal_Ventriculo|FFJK:s2|qS'
+Slack : 0.841
+TNS   : 0.000
+
+Type  : Fast Model Setup 'Contador_20Bits:Sinal_Atrio|FFJK:s1|qS'
+Slack : 0.857
+TNS   : 0.000
+
+Type  : Fast Model Setup 'Contador_20Bits:Sinal_Atrio|FFJK:s2|qS'
+Slack : 0.970
+TNS   : 0.000
+
+Type  : Fast Model Setup 'Contador_20Bits:Sinal_Ventriculo|FFJK:s1|qS'
+Slack : 0.971
+TNS   : 0.000
+
+Type  : Fast Model Setup 'Contador_20Bits:Sinal_Atrio|FFJK:s0|qS'
+Slack : 0.983
+TNS   : 0.000
+
+Type  : Fast Model Setup 'Clock'
+Slack : 1.974
+TNS   : 0.000
+
+Type  : Fast Model Hold 'Clock'
+Slack : -1.594
+TNS   : -3.188
+
+Type  : Fast Model Hold 'Contador_20Bits:Sinal_Atrio|FFJK:s0|qS'
+Slack : -0.603
+TNS   : -0.603
+
+Type  : Fast Model Hold 'Contador_20Bits:Sinal_Ventriculo|FFJK:s1|qS'
+Slack : -0.591
+TNS   : -0.591
+
+Type  : Fast Model Hold 'Contador_20Bits:Sinal_Atrio|FFJK:s2|qS'
+Slack : -0.590
+TNS   : -0.590
+
+Type  : Fast Model Hold 'Contador_20Bits:Sinal_Atrio|FFJK:s1|qS'
+Slack : -0.477
+TNS   : -0.477
+
+Type  : Fast Model Hold 'Contador_20Bits:Sinal_Ventriculo|FFJK:s2|qS'
+Slack : -0.461
+TNS   : -0.461
+
+Type  : Fast Model Hold 'Contador_20Bits:Sinal_Ventriculo|FFJK:s0|qS'
+Slack : -0.395
+TNS   : -0.395
+
+Type  : Fast Model Hold 'Contador_20Bits:Sinal_Atrio|FFJK:s3|qS'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'Contador_20Bits:Sinal_Ventriculo|FFJK:s3|qS'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'Contador_20Bits:Sinal_Atrio|FFJK:s1|qS'
+Slack : -0.576
+TNS   : -0.576
+
+Type  : Fast Model Recovery 'Contador_20Bits:Sinal_Ventriculo|FFJK:s3|qS'
+Slack : -0.543
+TNS   : -0.543
+
+Type  : Fast Model Recovery 'Contador_20Bits:Sinal_Ventriculo|FFJK:s0|qS'
+Slack : -0.539
+TNS   : -0.539
+
+Type  : Fast Model Recovery 'Contador_20Bits:Sinal_Ventriculo|FFJK:s2|qS'
+Slack : -0.474
+TNS   : -0.474
+
+Type  : Fast Model Recovery 'Contador_20Bits:Sinal_Atrio|FFJK:s3|qS'
+Slack : -0.450
+TNS   : -0.450
+
+Type  : Fast Model Recovery 'Contador_20Bits:Sinal_Ventriculo|FFJK:s1|qS'
+Slack : -0.450
+TNS   : -0.450
+
+Type  : Fast Model Recovery 'Contador_20Bits:Sinal_Atrio|FFJK:s0|qS'
+Slack : -0.448
+TNS   : -0.448
+
+Type  : Fast Model Recovery 'Contador_20Bits:Sinal_Atrio|FFJK:s2|qS'
+Slack : -0.252
+TNS   : -0.252
+
+Type  : Fast Model Recovery 'Clock'
+Slack : 0.160
+TNS   : 0.000
+
+Type  : Fast Model Removal 'Clock'
+Slack : -0.847
+TNS   : -1.577
+
+Type  : Fast Model Removal 'Contador_20Bits:Sinal_Atrio|FFJK:s2|qS'
+Slack : 0.157
+TNS   : 0.000
+
+Type  : Fast Model Removal 'Contador_20Bits:Sinal_Atrio|FFJK:s0|qS'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Fast Model Removal 'Contador_20Bits:Sinal_Atrio|FFJK:s3|qS'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Fast Model Removal 'Contador_20Bits:Sinal_Ventriculo|FFJK:s1|qS'
+Slack : 0.380
+TNS   : 0.000
+
+Type  : Fast Model Removal 'Contador_20Bits:Sinal_Ventriculo|FFJK:s2|qS'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Fast Model Removal 'Contador_20Bits:Sinal_Ventriculo|FFJK:s0|qS'
+Slack : 0.469
+TNS   : 0.000
+
+Type  : Fast Model Removal 'Contador_20Bits:Sinal_Ventriculo|FFJK:s3|qS'
+Slack : 0.473
+TNS   : 0.000
+
+Type  : Fast Model Removal 'Contador_20Bits:Sinal_Atrio|FFJK:s1|qS'
+Slack : 0.481
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'Clock'
+Slack : -1.380
+TNS   : -3.380
+
+Type  : Fast Model Minimum Pulse Width 'Contador_20Bits:Sinal_Atrio|FFJK:s0|qS'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'Contador_20Bits:Sinal_Atrio|FFJK:s1|qS'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'Contador_20Bits:Sinal_Atrio|FFJK:s2|qS'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'Contador_20Bits:Sinal_Atrio|FFJK:s3|qS'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'Contador_20Bits:Sinal_Ventriculo|FFJK:s0|qS'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'Contador_20Bits:Sinal_Ventriculo|FFJK:s1|qS'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'Contador_20Bits:Sinal_Ventriculo|FFJK:s2|qS'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'Contador_20Bits:Sinal_Ventriculo|FFJK:s3|qS'
+Slack : -0.500
+TNS   : -1.000
+
+------------------------------------------------------------

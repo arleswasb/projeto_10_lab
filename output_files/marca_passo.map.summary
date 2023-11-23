@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Nov 22 23:32:13 2023
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : marca_passo
+Top-level Entity Name : Marca_Passo
+Family : Cyclone II
+Total logic elements : 16
+    Total combinational functions : 16
+    Dedicated logic registers : 10
+Total registers : 10
+Total pins : 7
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

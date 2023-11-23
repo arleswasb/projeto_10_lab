@@ -1,0 +1,743 @@
+|Marca_Passo
+SA => SWA.IN0
+SA => PA.IN1
+SV => SWV.IN1
+SV => PV.IN1
+SW16 => Contador_20Bits:Sinal_Atrio.Enable
+SW16 => Contador_20Bits:Sinal_Ventriculo.Enable
+Reset => SWA.IN1
+Reset => SWV.IN1
+Clock => Contador_20Bits:Sinal_Atrio.CLock
+Clock => Contador_20Bits:Sinal_Ventriculo.CLock
+PA <= PA.DB_MAX_OUTPUT_PORT_TYPE
+PV <= PV.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Atrio
+Clock => FFJK:s0.ck
+Clear => FFJK:s0.Clear
+Clear => FFJK:s1.Clear
+Clear => FFJK:s2.Clear
+Clear => FFJK:s3.Clear
+Clear => FFJK:s4.Clear
+Clear => FFJK:s5.Clear
+Clear => FFJK:s6.Clear
+Clear => FFJK:s7.Clear
+Clear => FFJK:s8.Clear
+Clear => FFJK:s9.Clear
+Clear => FFJK:s10.Clear
+Clear => FFJK:s11.Clear
+Clear => FFJK:s12.Clear
+Clear => FFJK:s13.Clear
+Clear => FFJK:s14.Clear
+Clear => FFJK:s15.Clear
+Clear => FFJK:s16.Clear
+Clear => FFJK:s17.Clear
+Clear => FFJK:s18.Clear
+Clear => FFJK:s19.Clear
+Enable => FFJK:s0.Enable
+Enable => FFJK:s1.Enable
+Enable => FFJK:s2.Enable
+Enable => FFJK:s3.Enable
+Enable => FFJK:s4.Enable
+Enable => FFJK:s5.Enable
+Enable => FFJK:s6.Enable
+Enable => FFJK:s7.Enable
+Enable => FFJK:s8.Enable
+Enable => FFJK:s9.Enable
+Enable => FFJK:s10.Enable
+Enable => FFJK:s11.Enable
+Enable => FFJK:s12.Enable
+Enable => FFJK:s13.Enable
+Enable => FFJK:s14.Enable
+Enable => FFJK:s15.Enable
+Enable => FFJK:s16.Enable
+Enable => FFJK:s17.Enable
+Enable => FFJK:s18.Enable
+Enable => FFJK:s19.Enable
+s[0] <= FFJK:s0.q
+s[1] <= FFJK:s1.q
+s[2] <= FFJK:s2.q
+s[3] <= FFJK:s3.q
+s[4] <= FFJK:s4.q
+s[5] <= FFJK:s5.q
+s[6] <= FFJK:s6.q
+s[7] <= FFJK:s7.q
+s[8] <= FFJK:s8.q
+s[9] <= FFJK:s9.q
+s[10] <= FFJK:s10.q
+s[11] <= FFJK:s11.q
+s[12] <= FFJK:s12.q
+s[13] <= FFJK:s13.q
+s[14] <= FFJK:s14.q
+s[15] <= FFJK:s15.q
+s[16] <= FFJK:s16.q
+s[17] <= FFJK:s17.q
+s[18] <= FFJK:s18.q
+s[19] <= FFJK:s19.q
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Atrio|FFJK:s0
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Atrio|FFJK:s1
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Atrio|FFJK:s2
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Atrio|FFJK:s3
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Atrio|FFJK:s4
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Atrio|FFJK:s5
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Atrio|FFJK:s6
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Atrio|FFJK:s7
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Atrio|FFJK:s8
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Atrio|FFJK:s9
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Atrio|FFJK:s10
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Atrio|FFJK:s11
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Atrio|FFJK:s12
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Atrio|FFJK:s13
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Atrio|FFJK:s14
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Atrio|FFJK:s15
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Atrio|FFJK:s16
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Atrio|FFJK:s17
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Atrio|FFJK:s18
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Atrio|FFJK:s19
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Ventriculo
+Clock => FFJK:s0.ck
+Clear => FFJK:s0.Clear
+Clear => FFJK:s1.Clear
+Clear => FFJK:s2.Clear
+Clear => FFJK:s3.Clear
+Clear => FFJK:s4.Clear
+Clear => FFJK:s5.Clear
+Clear => FFJK:s6.Clear
+Clear => FFJK:s7.Clear
+Clear => FFJK:s8.Clear
+Clear => FFJK:s9.Clear
+Clear => FFJK:s10.Clear
+Clear => FFJK:s11.Clear
+Clear => FFJK:s12.Clear
+Clear => FFJK:s13.Clear
+Clear => FFJK:s14.Clear
+Clear => FFJK:s15.Clear
+Clear => FFJK:s16.Clear
+Clear => FFJK:s17.Clear
+Clear => FFJK:s18.Clear
+Clear => FFJK:s19.Clear
+Enable => FFJK:s0.Enable
+Enable => FFJK:s1.Enable
+Enable => FFJK:s2.Enable
+Enable => FFJK:s3.Enable
+Enable => FFJK:s4.Enable
+Enable => FFJK:s5.Enable
+Enable => FFJK:s6.Enable
+Enable => FFJK:s7.Enable
+Enable => FFJK:s8.Enable
+Enable => FFJK:s9.Enable
+Enable => FFJK:s10.Enable
+Enable => FFJK:s11.Enable
+Enable => FFJK:s12.Enable
+Enable => FFJK:s13.Enable
+Enable => FFJK:s14.Enable
+Enable => FFJK:s15.Enable
+Enable => FFJK:s16.Enable
+Enable => FFJK:s17.Enable
+Enable => FFJK:s18.Enable
+Enable => FFJK:s19.Enable
+s[0] <= FFJK:s0.q
+s[1] <= FFJK:s1.q
+s[2] <= FFJK:s2.q
+s[3] <= FFJK:s3.q
+s[4] <= FFJK:s4.q
+s[5] <= FFJK:s5.q
+s[6] <= FFJK:s6.q
+s[7] <= FFJK:s7.q
+s[8] <= FFJK:s8.q
+s[9] <= FFJK:s9.q
+s[10] <= FFJK:s10.q
+s[11] <= FFJK:s11.q
+s[12] <= FFJK:s12.q
+s[13] <= FFJK:s13.q
+s[14] <= FFJK:s14.q
+s[15] <= FFJK:s15.q
+s[16] <= FFJK:s16.q
+s[17] <= FFJK:s17.q
+s[18] <= FFJK:s18.q
+s[19] <= FFJK:s19.q
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Ventriculo|FFJK:s0
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Ventriculo|FFJK:s1
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Ventriculo|FFJK:s2
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Ventriculo|FFJK:s3
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Ventriculo|FFJK:s4
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Ventriculo|FFJK:s5
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Ventriculo|FFJK:s6
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Ventriculo|FFJK:s7
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Ventriculo|FFJK:s8
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Ventriculo|FFJK:s9
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Ventriculo|FFJK:s10
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Ventriculo|FFJK:s11
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Ventriculo|FFJK:s12
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Ventriculo|FFJK:s13
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Ventriculo|FFJK:s14
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Ventriculo|FFJK:s15
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Ventriculo|FFJK:s16
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Ventriculo|FFJK:s17
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Ventriculo|FFJK:s18
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Marca_Passo|Contador_20Bits:Sinal_Ventriculo|FFJK:s19
+ck => qS.CLK
+Clear => qS.IN0
+Preset => qS.PRESET
+Preset => qS.IN1
+Enable => qS.ENA
+J => process_0.IN0
+J => process_0.IN0
+J => process_0.IN0
+K => process_0.IN1
+K => process_0.IN1
+K => process_0.IN1
+q <= qS.DB_MAX_OUTPUT_PORT_TYPE
+
+
